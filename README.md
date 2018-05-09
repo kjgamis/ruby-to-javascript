@@ -1,14 +1,14 @@
 ## Warm up
 Convert the following pieces of Ruby code to JavaScript.
 
-```
+``` Ruby
 apples = 14
 puts apples
 
 puts "I have #{apples} apples."
 ```
 
-```
+``` Ruby
 materials = ['wood', 'metal', 'stone']
 words = {
   'elephant' => "The world's largest land mammal.",
@@ -17,7 +17,7 @@ words = {
 }
 ```
 
-```
+``` Ruby
 num = 16
 if num > 10
   puts "#{num} is greater than 10."
@@ -28,20 +28,20 @@ else
 end
 ```
 
-```
+``` Ruby
 10.times do
   puts "Doing the same thing over and over."
 end
 ```
 
-```
+``` Ruby
 base = 5
 20.times do |num|
   puts num + base
 end
 ```
 
-```
+``` Ruby
 total = 0
 100.times do |num|
   total += num
@@ -49,7 +49,7 @@ end
 puts total
 ```
 
-```
+``` Ruby
 (3..15).each do |height|
   if height > 9
     puts "You can get on the rollercoaster!"
@@ -59,14 +59,14 @@ puts total
 end
 ```
 
-```
+``` Ruby
 containers = ['purse', 'wallet', 'backback']
 containers.each do |container|
   puts container
 end
 ```
 
-```
+``` Ruby
 def hello_world
   puts "Hello world!"
 end
@@ -74,7 +74,7 @@ end
 hello_world
 ```
 
-```
+``` Ruby
 def add(first_num, second_num)
   first_num + second_num
 end
